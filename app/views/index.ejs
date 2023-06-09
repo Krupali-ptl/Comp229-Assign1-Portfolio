@@ -1,0 +1,38 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+<html>
+<head>
+  <title>My Home Page</title>
+  <style>
+    /* Styling for the body */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url('/img/back.png'); /* Background image */
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome">
+    <h3>Hi, I'm Krupali Patel</h3>
+    <h1>Welcome to My Home Page!</h1> <!-- Welcome heading -->
+    <p>Thank you for visiting. Explore my website to learn more about me and my projects.</p> <!-- Welcome message -->
+  </div>
+  
+  <div class="mission">
+    <h2>Mission Statement:</h2> <!-- Mission statement heading -->
+    <p>To inspire and empower individuals through innovative solutions and meaningful experiences.</p> <!-- Mission statement description -->
+  </div>
+  
+  <div class="button-container">
+    <a class="button" href="/about">About Me</a> <!-- Button to navigate to the "About Me" page -->
+    <a class="button" href="/products">Projects</a> <!-- Button to navigate to the "Projects" page -->
+    <a class="button" href="/contact">Contact</a> <!-- Button to navigate to the "Contact" page -->
+  </div><br><br><br><br><br>
+</body>
+</html>
+<!--bottom nav-->
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
